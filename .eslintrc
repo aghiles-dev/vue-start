@@ -1,0 +1,51 @@
+{
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "plugins": [
+    "vue",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-cond-assign": "error",
+    "default-case": "error",
+    "no-else-return": "error",
+    "no-eq-null": "off",
+    "no-fallthrough": "error",
+    "no-invalid-this": "error",
+    "no-labels": "error",
+    "no-return-assign": "error",
+    "no-loop-func": "error",
+    "no-magic-numbers": "off",
+    "no-new-wrappers": "error",
+    "no-param-reassign": "off",
+    "no-redeclare": "error",
+    "no-useless-concat": "error",
+    "yoda": ["error", "never"],
+    "eqeqeq": ["off", "always"],
+    "camelcase": ["error", { "properties": "never" }],
+    "no-unused-vars": "error",
+    "no-negated-condition": "off",
+    "no-const-assign": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "no-undef": "error"
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "prettier"
+  ],
+  "globals": {
+    "describe": true,
+    "beforeEach": true,
+    "test": true,
+    "expect": true,
+    "it": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  }
+}
